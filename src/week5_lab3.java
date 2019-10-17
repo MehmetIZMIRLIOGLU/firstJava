@@ -15,6 +15,10 @@ public class week5_lab3 {
                 prime=false;
         }
 
+        // 1 is not prime number
+        if(num==1)
+            prime=false;
+
         if(prime == true)
             System.out.println(num + " is a prime number");
         else
